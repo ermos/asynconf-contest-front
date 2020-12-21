@@ -30,7 +30,7 @@ body {
     width: 200px;
     left: calc(50% - 100px);
     bottom: 0;
-    z-index: 3;
+    z-index: 4;
     animation: header__sc--animate forwards 2s;
 }
 
@@ -41,6 +41,34 @@ body {
     100% {
         transform: translateY(0) rotate(0);
     }
+}
+
+.header__gift {
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    z-index: 3;
+    animation: header__gift--animate forwards 2s;
+}
+
+@keyframes header__gift--animate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header__gift.left {
+    left: calc(50% - 200px);
+}
+
+.header__gift.right {
+    right: calc(50% - 200px);
 }
 
 .main {
