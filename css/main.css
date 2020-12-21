@@ -160,6 +160,29 @@ body {
     text-align: center;
 }
 
+.section-2__title {
+    text-align: center;
+    color: var(--neutral-color);
+}
+
+.last_cdos {
+    display: flex;
+    column-gap: var(--spacing);
+}
+
+.last_cdo {
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.last_cdo img {
+    height: 200px;
+}
+
 .section-1__text {
     margin-top: var(--spacing);
     color: var(--main-color);
@@ -171,6 +194,7 @@ body {
     background: #fff;
     box-sizing: border-box;
     padding: 20px;
+    color: var(--neutral-color);
 }
 
 .section-3 {
@@ -214,4 +238,25 @@ button {
 
 textarea {
     min-height: 200px;
+}
+
+.section-4 {
+    min-height: 100vh;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    color: var(--neutral-color);
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chanson__title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.chanson {
+    margin-top: 10px;
 }
