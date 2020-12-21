@@ -1,0 +1,9 @@
+:root {
+    --interface-size: 1280px;
+    --spacing: 10px;
+    --background: #ecedef;
+    --main-color: #fff;
+    --sub-color: #000;
+    --text-color: #212121;
+    --neutral-color: #cf4642;
+}

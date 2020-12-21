@@ -1,0 +1,5 @@
+-> Projet doit etre give sur discord
+-> theme de noel
+-> poster sur https://repl.it/
+-> mettre le lien dans le bot asynconf
+!asubmit lerep
